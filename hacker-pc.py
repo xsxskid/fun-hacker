@@ -70,7 +70,7 @@ def mrxs3():
 
 #  """+color.GREEN+"""
 
-def banner():
+def banner(mrxs2 ,mrxs3):
     loadapp = (0)
     x = random.randint (5 , 60)
     y = random.randint (61 , 99)
@@ -98,7 +98,7 @@ def startshow():
     mrxs3()
     input1 = (input(color.GREEN +"Do you want to start hacking any computer model? \nEnter target IP for start attack or Q to quit \nDefault:192.168.1.1 >>"))
     if input1 != 'q' :
-        banner()
+        banner(mrxs2 , mrxs3)
     else:
         quit()            
 
